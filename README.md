@@ -179,17 +179,12 @@ Voce tambem pode usar `exit`, `quit` ou pressionar `Ctrl+C`.
 ├── docker-compose.yml        # Servico PostgreSQL + pgVector
 ├── requirements.txt          # Dependencias Python com versoes pinadas
 ├── .env.example              # Modelo de variaveis de ambiente
-├── .env                      # Variaveis locais (nao versionar)
 ├── document.pdf              # PDF a ser consultado (fornecido pelo usuario)
-├── SPEC.md                   # Especificacao de requisitos
 ├── src/
 │   ├── ingest.py             # Carrega, divide e persiste o PDF no PGVector
 │   ├── search.py             # Factories, busca vetorial, prompt e funcao ask()
 │   └── chat.py               # CLI interativa (REPL)
-└── docs/
-    ├── ARCHITECTURE.md       # Decisoes de arquitetura e fluxos de dados
-    ├── user-stories.md       # User stories
-    └── test-report.md        # Relatorio de validacao QA
+└── README.md                 # Instruções de execução
 ```
 
 ---
