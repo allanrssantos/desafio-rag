@@ -1,0 +1,12 @@
+/*
+!/.gitignore
+!/docker-compose.yml
+!/requirements.txt
+!/.env.example
+!/document.pdf
+!/README.md
+!/src/
+src/*
+!src/ingest.py
+!src/search.py
+!src/chat.py
